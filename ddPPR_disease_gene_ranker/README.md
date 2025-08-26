@@ -8,17 +8,21 @@ Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/g-jp/projects/edit/main/ddPPR_disease_gene_ranker
 cd ddPPR_disease_gene_ranker
-
+```
 Install localy:
 
+```bash
 pip install -e .
+```
 
 After installation, you can import functions directly:
 
+```python
 from diffusion import PPR_diffusion, load_graph
-
+```
 References:
 
 Matos, A. M., Pinto, F. R., Barros, P., Amaral, M. D., Pepperkok, R., & Matos, P. (2019). Inhibition of calpain 1 restores plasma membrane stability to pharmacologically rescued Phe508del-CFTR variant. Journal of Biological Chemistry, 294(36), 13396–13410. https://doi.org/10.1074/jbc.RA119.008738
