@@ -4,8 +4,9 @@ The pipeline consists of 1) generating a disease-associated network of protein-p
 
 This project is under active development — for now it can only be used by cloning this repository.
 
-Installation
-
+```mardown
+#Installation
+```
 Clone the repository:
 
 ```bash
