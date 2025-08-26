@@ -26,6 +26,6 @@ After installation, you can import functions directly:
 ```python
 from ddPPR import ddPPR, add_interactors
 ```
-# References:
+# References
 
 Matos, A. M., Pinto, F. R., Barros, P., Amaral, M. D., Pepperkok, R., & Matos, P. (2019). Inhibition of calpain 1 restores plasma membrane stability to pharmacologically rescued Phe508del-CFTR variant. Journal of Biological Chemistry, 294(36), 13396–13410. https://doi.org/10.1074/jbc.RA119.008738
