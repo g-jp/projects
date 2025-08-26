@@ -4,10 +4,10 @@ This pipeline described an algorithm used to rank genes in disease based on expe
 
 The pipeline consists of 1) generating a disease-associated network of protein-protein interactions that will be used for the downstream diffusion and ranking of genes and 2) the actual diffusion algorithm consisting of a comparative Personalized Page Rank that contrast two MS/MS interactome data for WT- and F508del-CFTR (Matos et al., 2019) as the seed set of each diffusion round for the same network, depicting which genes seem to be most differentially associated with one interactome relative to the other.
 
-This project is under active development — for now it can only be used by cloning this repository.
-
 
 # Installation
+
+This project is under active development — for now it can only be used by cloning this repository.
 
 Clone the repository:
 
