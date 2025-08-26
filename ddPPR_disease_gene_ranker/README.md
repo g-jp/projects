@@ -24,7 +24,7 @@ pip install -e .
 After installation, you can import functions directly:
 
 ```python
-from diffusion import PPR_diffusion, load_graph
+from diffusion import ddPPR, add_interactors
 ```
 # References:
 
