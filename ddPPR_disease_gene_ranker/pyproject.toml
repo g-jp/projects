@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion"                # package name (what you pip install)
+version = "0.1.0"
+description = "Diffusion-based network analysis toolkit for biological graphs"
+authors = [
+    { name="João Oliveira", email="jpedrogois@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "pandas",
+    "networkx",
+    "igraph",
+    "scipy",
+    "statsmodels",
+    "plotly",
+    "tqdm"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
