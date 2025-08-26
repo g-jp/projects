@@ -2,5 +2,6 @@ This pipeline described an algorithm used to rank genes in disease based on expe
 
 The pipeline consists of 1) generating a disease-associated network of protein-protein interactions that will be used for the downstream diffusion and ranking of genes and 2) the actual diffusion algorithm consisting of a comparative Personalized Page Rank that contrast two MS/MS interactome data for WT- and F508del-CFTR (Matos et al., 2019) as the seed set of each diffusion round for the same network, depicting which genes seem to be most differentially associated with one interactome relative to the other.
 
-References
+References:
+
 Matos, A. M., Pinto, F. R., Barros, P., Amaral, M. D., Pepperkok, R., & Matos, P. (2019). Inhibition of calpain 1 restores plasma membrane stability to pharmacologically rescued Phe508del-CFTR variant. Journal of Biological Chemistry, 294(36), 13396–13410. https://doi.org/10.1074/jbc.RA119.008738
